@@ -1,0 +1,18 @@
+0.git init
+1.git add .
+2.git commit -m "Added a Procfile."
+3.heroku login
+Enter your Heroku credentials.
+...
+4x.heroku create
+5.x/Creating arcane-lowlands-8408... done, stack is cedar
+6.x/http://arcane-lowlands-8408.herokuapp.com/ | git@heroku.com:arcane-lowlands-8408.git
+7.x/Git remote heroku added
+8.git push heroku master --force
+...
+-----> Node.js app detected
+...
+-----> Launching... done
+       http://arcane-lowlands-8408.herokuapp.com deployed to Heroku
+9.heroku git:remote -a erpparatech         //   heroku git:remote -a alsumgroup-erp   //         heroku git:remote -a erpparatechdemo
+10.git pull heroku master
